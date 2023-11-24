@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Media/fav.png" type="image/x-icon">
+    <title>Custom Video Player</title>
+</head>
+<body>
+    <nav>
+        <ul>
+<div style="justify-content: center; text-align: center; color: whitesmoke;" class="div"> 
+    <img src="./logo.png" width="50px"  style="float: right;" alt="">
+</div>
+            <a href="/"><li>Home</li></a>
+           <a href="./moreInfo/About.html"><li>About</li></a> 
+           <a href="./moreInfo/context.html"><li>Contect</li></a> 
+        </ul>
+    </nav>
+    <div style="margin: 23px ; text-align: center;">
+
+        <h2>A video player With Multi Gesture support</h2>
+    </div>
+
+    <div id="player-continer">
+        <video id="video"controls width="90%">
+<source src="./Media/demo.mp4"   type="video/mp4">
+        </video>
+    </div>
+    <div class="text" style="text-align: center; margin-top: 12px;">
+
+        <h2>Chosse video from here </h2>
+    </div>
+    <div class="videolist">
+    <button onclick="playvideo1()">1</button>
+    <button onclick="playvideo2()">2</button>
+    <button onclick="playvideo3()">3</button>
+    <button onclick="playvideo4()">4</button>
+    </div>
+    <footer >
+        made with ❣️Ankit
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
